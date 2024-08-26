@@ -205,10 +205,10 @@
           <mxGeometry x="1480" y="750" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-35" value="系统服务1&lt;div&gt;系统服务2&lt;br&gt;&lt;/div&gt;&lt;div&gt;系统服务3&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1485" y="820" width="90" height="50" as="geometry" />
+          <mxGeometry x="1485" y="800" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-36" value="公共服务1&lt;div&gt;公共服务2&lt;br&gt;&lt;/div&gt;&lt;div&gt;公共服务3&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1485" y="910" width="90" height="50" as="geometry" />
+          <mxGeometry x="1485" y="862.5" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-39" value="应用服务集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1730" y="750" width="100" height="30" as="geometry" />
@@ -254,7 +254,7 @@
         <mxCell id="CiiGDle08EUH7M_z_X6h-65" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1377.5" y="1090" width="592.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CiiGDle08EUH7M_z_X6h-66" value="数据库集群 主备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CiiGDle08EUH7M_z_X6h-66" value="数据库主备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1408.5" y="1103.75" width="134" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-67" value="redis集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -272,8 +272,8 @@
         <mxCell id="CiiGDle08EUH7M_z_X6h-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.762;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CiiGDle08EUH7M_z_X6h-32" target="CiiGDle08EUH7M_z_X6h-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CiiGDle08EUH7M_z_X6h-74" value="分布式事务 seata" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="1028" width="120" height="30" as="geometry" />
+        <mxCell id="CiiGDle08EUH7M_z_X6h-74" value="分布式事务 seata AT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="1028" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CiiGDle08EUH7M_z_X6h-33" target="CiiGDle08EUH7M_z_X6h-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -291,10 +291,25 @@
           <mxGeometry x="2019" y="620" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-88" value="&lt;span style=&quot;color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 16px; text-align: start;&quot;&gt;Sentinel&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 16px; text-align: start;&quot;&gt;受到语言限制&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="2190" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-89" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;熔断降级&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2019" y="690" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CiiGDle08EUH7M_z_X6h-90" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;流量治理&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;数据/事务问题&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;监控与告警&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2033" y="190" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CiiGDle08EUH7M_z_X6h-91" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;重试&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2019" y="755" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CiiGDle08EUH7M_z_X6h-92" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol&quot; color=&quot;#24292e&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;服务网格&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol&quot; color=&quot;#24292e&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;lstio部署复杂&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="695" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CiiGDle08EUH7M_z_X6h-93" value="分布式事务服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="930" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CiiGDle08EUH7M_z_X6h-94" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;监控&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2019" y="810" width="97" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
