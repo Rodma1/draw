@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2853" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2498" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-1647" y="265" width="510" height="295" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-8" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="250" width="150" height="310" as="geometry" />
+          <mxGeometry x="-680" y="250" width="150" height="320" as="geometry" />
         </mxCell>
         <mxCell id="CiiGDle08EUH7M_z_X6h-32" value="GRPC/http" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1415" y="712.5" width="510" height="300" as="geometry" />
@@ -360,7 +360,7 @@
           <mxGeometry x="-665" y="500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-14" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="250" width="150" height="310" as="geometry" />
+          <mxGeometry x="-480" y="250" width="150" height="320" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-15" value="公共服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-465" y="270" width="120" height="40" as="geometry" />
@@ -417,16 +417,16 @@
           <mxGeometry x="-237.5" y="150" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-53" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="620" width="620" height="70" as="geometry" />
+          <mxGeometry x="-704" y="610" width="620" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-54" value="数据库集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-664" y="633.75" width="134" height="42.5" as="geometry" />
+          <mxGeometry x="-679" y="623.75" width="134" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-55" value="redis集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="633.75" width="134" height="42.5" as="geometry" />
+          <mxGeometry x="-525" y="623.75" width="134" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-56" value="elasticsearch集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="633.75" width="134" height="42.5" as="geometry" />
+          <mxGeometry x="-375" y="623.75" width="134" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.315;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eADIxxTv7itCcgVYeMpo-8" target="eADIxxTv7itCcgVYeMpo-53">
           <mxGeometry relative="1" as="geometry" />
@@ -435,7 +435,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-62" value="系统文件ceph/HDFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="633.75" width="134" height="42.5" as="geometry" />
+          <mxGeometry x="-225" y="623.75" width="134" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-63" value="数据库主从&amp;nbsp; 读写分离" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-685" y="720" width="140" height="30" as="geometry" />
@@ -462,7 +462,7 @@
           <mxGeometry x="-705" y="820" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-76" value="在客户端使用虚拟IP (VIP) 来连接数据库，然后更新 VIP 的映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-712.5" y="875" width="360" height="30" as="geometry" />
+          <mxGeometry x="-330" y="720" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eADIxxTv7itCcgVYeMpo-80">
           <mxGeometry relative="1" as="geometry">
@@ -588,6 +588,9 @@
         </mxCell>
         <mxCell id="eADIxxTv7itCcgVYeMpo-152" value="读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-310" y="938" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eADIxxTv7itCcgVYeMpo-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.584;entryY=1.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eADIxxTv7itCcgVYeMpo-138" target="eADIxxTv7itCcgVYeMpo-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
