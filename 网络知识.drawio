@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel>
+    <mxGraphModel dx="792" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-2" value="应用层 (Application)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-3" value="表示层 (Presentation)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-4" value="会话层 (Session)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-5" value="&amp;nbsp;传输层 (Transport)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-6" value="网络层 (Network)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-7" value="数据链路层 (Data Link)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-8" value="物理层 (Physical)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
