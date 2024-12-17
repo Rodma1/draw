@@ -28,6 +28,21 @@
         <mxCell id="zmIZeUJnfp9E8hEMUSnU-8" value="物理层 (Physical)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="610" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-10" value="应用层 (Application)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-11" value="传输层 (Transport)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-12" value="网络层 (Internet)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmIZeUJnfp9E8hEMUSnU-13" value="网络接口层 (Network Interface)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
