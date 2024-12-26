@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="792" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,69 +199,69 @@
         <mxCell id="XhRyorLoLj0NrNJrdzei-8" value="设备 B (&lt;span class=&quot;hljs-number&quot;&gt;192.168&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;.1&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;.3&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="1900" y="640" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" edge="1" parent="1" source="EIq0eB0b7bq1M4uCoNrA-1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" parent="1" source="EIq0eB0b7bq1M4uCoNrA-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1990" y="805" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_group;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_group;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1780" y="780" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" edge="1" parent="1" source="EIq0eB0b7bq1M4uCoNrA-2">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" parent="1" source="EIq0eB0b7bq1M4uCoNrA-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2180" y="805" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="2000" y="758.75" width="76.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-6" value="用户输入网址&lt;div&gt;&lt;div&gt;(www.example.com)&lt;/div&gt;&lt;div&gt;请求解析&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-6" value="用户输入网址&lt;div&gt;&lt;div&gt;(www.example.com)&lt;/div&gt;&lt;div&gt;请求解析&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1850" y="732" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-7" value="本地 DNS 缓存查询&lt;div&gt;（若缓存中没有则继续查询）&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-7" value="本地 DNS 缓存查询&lt;div&gt;（若缓存中没有则继续查询）&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1950" y="705" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" edge="1" parent="1" source="EIq0eB0b7bq1M4uCoNrA-9" target="EIq0eB0b7bq1M4uCoNrA-12">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" parent="1" source="EIq0eB0b7bq1M4uCoNrA-9" target="EIq0eB0b7bq1M4uCoNrA-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-9" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-9" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="2190" y="758.75" width="76.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-11" value="&amp;nbsp;本地 DNS 服务器&lt;div&gt;（ISP 提供的 DNS 服务）&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-11" value="&amp;nbsp;本地 DNS 服务器&lt;div&gt;（ISP 提供的 DNS 服务）&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="2143.25" y="713" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" edge="1" parent="1" source="EIq0eB0b7bq1M4uCoNrA-12" target="EIq0eB0b7bq1M4uCoNrA-15">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" parent="1" source="EIq0eB0b7bq1M4uCoNrA-12" target="EIq0eB0b7bq1M4uCoNrA-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-12" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-12" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="2190" y="940" width="76.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-14" value="根域名服务器（Root DNS）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-14" value="根域名服务器（Root DNS）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="2143.25" y="1040" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" edge="1" parent="1" source="EIq0eB0b7bq1M4uCoNrA-15">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" parent="1" source="EIq0eB0b7bq1M4uCoNrA-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1860" y="986.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-15" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-15" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="2001.75" y="940" width="76.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-17" value="顶级域名服务器（TLD DNS）&lt;div&gt;（如 .com、.org 等）&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-17" value="顶级域名服务器（TLD DNS）&lt;div&gt;（如 .com、.org 等）&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1960" y="1050" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" edge="1" parent="1" source="EIq0eB0b7bq1M4uCoNrA-18">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1100FF;" parent="1" source="EIq0eB0b7bq1M4uCoNrA-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1818.25" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-18" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-18" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1780" y="940" width="76.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-20" value="权威 DNS 服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-20" value="权威 DNS 服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1758.25" y="1060" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EIq0eB0b7bq1M4uCoNrA-22" value="返回 IP 地址给用户浏览器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" vertex="1" parent="1">
+        <mxCell id="EIq0eB0b7bq1M4uCoNrA-22" value="返回 IP 地址给用户浏览器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1820" y="895" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
