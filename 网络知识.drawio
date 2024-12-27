@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -263,6 +263,12 @@
         </mxCell>
         <mxCell id="EIq0eB0b7bq1M4uCoNrA-22" value="返回 IP 地址给用户浏览器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1820" y="895" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_group;fontColor=#1100FF;" vertex="1" parent="1">
+          <mxGeometry x="2163.25" y="1430" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontColor=#1100FF;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1430" width="116.5" height="140.87" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
