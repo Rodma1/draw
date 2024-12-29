@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,53 +264,128 @@
         <mxCell id="EIq0eB0b7bq1M4uCoNrA-22" value="返回 IP 地址给用户浏览器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1100FF;" parent="1" vertex="1">
           <mxGeometry x="1820" y="895" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0800FF;fontSize=14;" edge="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0800FF;fontSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2220" y="1390" as="targetPoint" />
             <mxPoint x="1820" y="1390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_group;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_group;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1670" y="1390" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-3" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-3" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2230" y="1370" width="136" height="161.05" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-4" value="DHCP server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-4" value="DHCP server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2243" y="1335" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-5" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-5" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1705" y="1350" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-8" value="发送 DHCP Discover 请求（寻找 DHCP 服务器）&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-8" value="发送 DHCP Discover 请求（寻找 DHCP 服务器）&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1845" y="1350" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.067;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;fontSize=14;" edge="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.067;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;fontSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2230" y="1440" as="sourcePoint" />
             <mxPoint x="1830.0500000000002" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-10" value="DHCP 服务器响应 DHCP Offer&amp;nbsp;（提供一个可用的 IP 地址）&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-10" value="DHCP 服务器响应 DHCP Offer&amp;nbsp;（提供一个可用的 IP 地址）&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1820" y="1400" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0800FF;fontSize=14;" edge="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0800FF;fontSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2220" y="1490" as="targetPoint" />
             <mxPoint x="1820" y="1490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-14" value="发送 DHCP Request 请求（确认选择某个 DHCP 服务器）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-14" value="发送 DHCP Request 请求（确认选择某个 DHCP 服务器）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1830" y="1450" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.067;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;fontSize=14;" edge="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.067;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;fontSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2230" y="1531.05" as="sourcePoint" />
             <mxPoint x="1830.0500000000002" y="1531.05" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HQQLpk4sWtMiObBlmO5x-17" value="DHCP 服务器发送 DHCP Ack（确认分配 IP 地址）&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HQQLpk4sWtMiObBlmO5x-17" value="DHCP 服务器发送 DHCP Ack（确认分配 IP 地址）&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1856.5" y="1498" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-1" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.ftp_server;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1243.83" width="64" height="87.44" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_group;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1236.25" y="1255.1" width="109.5" height="94.9" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-3" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1159.5" y="1272.55" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-4" value="FTP服务端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1272.55" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-5" value="20&lt;div&gt;Data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1380" width="83.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-10" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="957.75" y="1430" width="392.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-9" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="1430" width="192" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-11" value="21&lt;div&gt;Command&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1380" width="83.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-12" value="N&lt;div&gt;Command&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1206.75" y="1380" width="83.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-13" value="N+1&lt;br&gt;Data" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1309.5" y="1380" width="83.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-14" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#0800FF;" edge="1" parent="1" source="QzEn4oFJ29bwQEIYksrI-11" target="QzEn4oFJ29bwQEIYksrI-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1101" y="1400" as="sourcePoint" />
+            <mxPoint x="1200" y="1401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-15" value="(1) 客户端N号端口和&lt;div&gt;21号端口连接（N&amp;gt;=1024）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1069" y="1335" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.005;entryY=0.286;entryDx=0;entryDy=0;exitX=1.005;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;fontColor=#0800FF;" edge="1" parent="1" source="QzEn4oFJ29bwQEIYksrI-9" target="QzEn4oFJ29bwQEIYksrI-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1250" y="1450" as="sourcePoint" />
+            <mxPoint x="1110" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-17" value="（2）我打开了N+1端口，传数据吧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1047.5" y="1435.53" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0800FF;" edge="1" parent="1" target="QzEn4oFJ29bwQEIYksrI-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1059.5" y="1510" as="sourcePoint" />
+            <mxPoint x="1229.5" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-19" value="（3）收到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="1490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#0800FF;" edge="1" parent="1" target="QzEn4oFJ29bwQEIYksrI-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="956.75" y="1531.05" as="sourcePoint" />
+            <mxPoint x="1350.25" y="1598.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-21" value="（4）主动连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1110.5" y="1531.05" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.001;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;" edge="1" parent="1" target="QzEn4oFJ29bwQEIYksrI-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1350" y="1610" as="sourcePoint" />
+            <mxPoint x="993" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QzEn4oFJ29bwQEIYksrI-23" value="（5）建立数据连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="1077.5" y="1580" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
