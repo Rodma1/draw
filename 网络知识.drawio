@@ -552,6 +552,18 @@
         <mxCell id="RFY8BQ7MM3WwLj8GH98j-28" value="会话密钥协商完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
           <mxGeometry x="295" y="2770" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-30" value="&lt;div&gt;解密数据（验证MAC）&lt;br&gt;&lt;/div&gt;&lt;div&gt;(解密与认证)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2990" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-31" value="&lt;div&gt;&amp;nbsp;加密数据（带MAC）&lt;div&gt;(加密与认证)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2990" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-32" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000FF;" edge="1" parent="1" target="RFY8BQ7MM3WwLj8GH98j-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="3020" as="sourcePoint" />
+            <mxPoint x="360" y="3020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
