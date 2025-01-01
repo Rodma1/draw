@@ -481,12 +481,12 @@
           <mxGeometry x="120" y="2415.1" width="109.5" height="94.9" as="geometry" />
         </mxCell>
         <mxCell id="RFY8BQ7MM3WwLj8GH98j-6" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
-          <mxGeometry x="170" y="2510" width="360" height="300" as="geometry" />
+          <mxGeometry x="170" y="2510" width="360" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="RFY8BQ7MM3WwLj8GH98j-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;" edge="1" parent="1" target="RFY8BQ7MM3WwLj8GH98j-6">
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontColor=#0800FF;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="170" y="2560" as="sourcePoint" />
-            <mxPoint x="330" y="2560" as="targetPoint" />
+            <mxPoint x="520" y="2560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RFY8BQ7MM3WwLj8GH98j-8" value="&amp;nbsp;Client Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
@@ -522,8 +522,8 @@
             <mxPoint x="530" y="2712" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RFY8BQ7MM3WwLj8GH98j-17" value="证书验证, 公钥加密数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
-          <mxGeometry x="290" y="2678" width="150" height="30" as="geometry" />
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-17" value="证书验证，生成预主密钥, 公钥加密数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2678" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RFY8BQ7MM3WwLj8GH98j-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -531,17 +531,26 @@
             <mxPoint x="170" y="2760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RFY8BQ7MM3WwLj8GH98j-19" value="解密, 生成会话密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
-          <mxGeometry x="300" y="2728" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RFY8BQ7MM3WwLj8GH98j-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="170" y="2802" as="sourcePoint" />
-            <mxPoint x="530" y="2804" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-19" value="解密预主密钥, 生成会话密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2728" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RFY8BQ7MM3WwLj8GH98j-21" value="数据加密传输" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
-          <mxGeometry x="315" y="2770" width="100" height="30" as="geometry" />
+          <mxGeometry x="310" y="2830" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-23" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0.996;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RFY8BQ7MM3WwLj8GH98j-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="2862" as="sourcePoint" />
+            <mxPoint x="527.8399999999999" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0800FF;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="2810" as="sourcePoint" />
+            <mxPoint x="530" y="2812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFY8BQ7MM3WwLj8GH98j-28" value="会话密钥协商完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0800FF;" vertex="1" parent="1">
+          <mxGeometry x="295" y="2770" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
