@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="792" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1094,23 +1094,80 @@
         <mxCell id="WX-UaJ3GwU34J8Pj1Hu5-38" value="三层交换机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1000FF;" parent="1" vertex="1">
           <mxGeometry x="2050" y="3655" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N73witeUh0bzF4Ul_2Cy-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#240CFF;" vertex="1" parent="1">
-          <mxGeometry x="1818.25" y="4230" width="50" height="45" as="geometry" />
+        <mxCell id="N73witeUh0bzF4Ul_2Cy-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#240CFF;" parent="1" vertex="1">
+          <mxGeometry x="1813.25" y="4095" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="N73witeUh0bzF4Ul_2Cy-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#240CFF;" vertex="1" parent="1">
-          <mxGeometry x="2157.25" y="4230" width="50" height="45" as="geometry" />
+        <mxCell id="N73witeUh0bzF4Ul_2Cy-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#240CFF;" parent="1" vertex="1">
+          <mxGeometry x="2152.25" y="4095" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="N73witeUh0bzF4Ul_2Cy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;fontColor=#240CFF;" edge="1" parent="1" source="N73witeUh0bzF4Ul_2Cy-1" target="N73witeUh0bzF4Ul_2Cy-2">
+        <mxCell id="N73witeUh0bzF4Ul_2Cy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;fontColor=#240CFF;" parent="1" source="N73witeUh0bzF4Ul_2Cy-1" target="N73witeUh0bzF4Ul_2Cy-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N73witeUh0bzF4Ul_2Cy-5" value="Telnet客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" vertex="1" parent="1">
-          <mxGeometry x="1805" y="4178" width="90" height="30" as="geometry" />
+        <mxCell id="N73witeUh0bzF4Ul_2Cy-5" value="Telnet客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="4043" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N73witeUh0bzF4Ul_2Cy-6" value="Telnet服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" vertex="1" parent="1">
-          <mxGeometry x="2133.25" y="4185" width="90" height="30" as="geometry" />
+        <mxCell id="N73witeUh0bzF4Ul_2Cy-6" value="Telnet服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" parent="1" vertex="1">
+          <mxGeometry x="2128.25" y="4050" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N73witeUh0bzF4Ul_2Cy-7" value="通过telnet协议连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" vertex="1" parent="1">
-          <mxGeometry x="1946.5" y="4208" width="120" height="30" as="geometry" />
+        <mxCell id="N73witeUh0bzF4Ul_2Cy-7" value="通过telnet协议连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" parent="1" vertex="1">
+          <mxGeometry x="1941.5" y="4073" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-1" target="vna-vrciyLP_2gOag-3_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-1" value="&lt;span style=&quot;&quot;&gt;发送方&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1793.25" y="4383.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-3" target="vna-vrciyLP_2gOag-3_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-3" value="邮件服务器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2033.25" y="4360" width="76" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-6" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="4375" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-7" value="25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="4370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-8" value="接收方" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2257.25" y="4383.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-10" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2143.25" y="4375" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-11" value="110" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="4370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-12" target="vna-vrciyLP_2gOag-3_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-12" value="用户代理&lt;br&gt;客户端进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1758.38" y="4290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-13" value="邮箱" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2005.63" y="4290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-15" value="SMTP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1898.38" y="4278" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-18" target="vna-vrciyLP_2gOag-3_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-18" value="SMTP服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1949.88" y="4220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-21" target="vna-vrciyLP_2gOag-3_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-21" value="POP3服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2098.38" y="4220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-25" target="vna-vrciyLP_2gOag-3_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vna-vrciyLP_2gOag-3_-25" value="用户代理&lt;br&gt;客户端进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2221.63" y="4290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
