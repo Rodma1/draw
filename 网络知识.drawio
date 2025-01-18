@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1112,62 +1112,116 @@
         <mxCell id="N73witeUh0bzF4Ul_2Cy-7" value="通过telnet协议连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#240CFF;" parent="1" vertex="1">
           <mxGeometry x="1941.5" y="4073" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-1" target="vna-vrciyLP_2gOag-3_-3">
+        <mxCell id="vna-vrciyLP_2gOag-3_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0A12FF;" parent="1" source="vna-vrciyLP_2gOag-3_-1" target="vna-vrciyLP_2gOag-3_-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-1" value="&lt;span style=&quot;&quot;&gt;发送方&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-1" value="&lt;span style=&quot;&quot;&gt;发送方&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="1793.25" y="4383.5" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-3" target="vna-vrciyLP_2gOag-3_-8">
+        <mxCell id="vna-vrciyLP_2gOag-3_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0A12FF;" parent="1" source="vna-vrciyLP_2gOag-3_-3" target="vna-vrciyLP_2gOag-3_-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-3" value="邮件服务器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-3" value="邮件服务器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2033.25" y="4360" width="76" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-6" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-6" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="1910" y="4375" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-7" value="25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-7" value="25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="1990" y="4370" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-8" value="接收方" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-8" value="接收方" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2257.25" y="4383.5" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-10" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-10" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2143.25" y="4375" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-11" value="110" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-11" value="110" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2100" y="4370" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-12" target="vna-vrciyLP_2gOag-3_-13">
+        <mxCell id="vna-vrciyLP_2gOag-3_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontColor=#0A12FF;" parent="1" source="vna-vrciyLP_2gOag-3_-12" target="vna-vrciyLP_2gOag-3_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-12" value="用户代理&lt;br&gt;客户端进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-12" value="用户代理&lt;br&gt;客户端进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="1758.38" y="4290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-13" value="邮箱" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-13" value="邮箱" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2005.63" y="4290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-15" value="SMTP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-15" value="SMTP连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="1898.38" y="4278" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-18" target="vna-vrciyLP_2gOag-3_-13">
+        <mxCell id="vna-vrciyLP_2gOag-3_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#0A12FF;" parent="1" source="vna-vrciyLP_2gOag-3_-18" target="vna-vrciyLP_2gOag-3_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-18" value="SMTP服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-18" value="SMTP服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="1949.88" y="4220" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-21" target="vna-vrciyLP_2gOag-3_-13">
+        <mxCell id="vna-vrciyLP_2gOag-3_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#0A12FF;" parent="1" source="vna-vrciyLP_2gOag-3_-21" target="vna-vrciyLP_2gOag-3_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-21" value="POP3服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-21" value="POP3服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2098.38" y="4220" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontColor=#0A12FF;" edge="1" parent="1" source="vna-vrciyLP_2gOag-3_-25" target="vna-vrciyLP_2gOag-3_-13">
+        <mxCell id="vna-vrciyLP_2gOag-3_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontColor=#0A12FF;" parent="1" source="vna-vrciyLP_2gOag-3_-25" target="vna-vrciyLP_2gOag-3_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vna-vrciyLP_2gOag-3_-25" value="用户代理&lt;br&gt;客户端进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" vertex="1" parent="1">
+        <mxCell id="vna-vrciyLP_2gOag-3_-25" value="用户代理&lt;br&gt;客户端进程" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2221.63" y="4290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fontColor=#0008FF;" edge="1" parent="1" source="ZCU32O3gOyeMLDOhdpKD-1" target="ZCU32O3gOyeMLDOhdpKD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-1" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#0008FF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="4185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-2" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#0008FF;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-4" value="请求认证&amp;nbsp; &amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0008FF;" vertex="1" parent="1">
+          <mxGeometry x="90" y="4140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-5" value="验证通过/失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0008FF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="4140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-6" value="用户名，密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0008FF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-8" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4185" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1000FF;" edge="1" parent="1" source="ZCU32O3gOyeMLDOhdpKD-10" target="ZCU32O3gOyeMLDOhdpKD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-10" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1000FF;" vertex="1" parent="1">
+          <mxGeometry x="75" y="4390" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-11" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#1000FF;" vertex="1" parent="1">
+          <mxGeometry x="485" y="4390" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-15" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="4428.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-17" value="发起挑战，发送一个随机数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1000FF;" vertex="1" parent="1">
+          <mxGeometry x="245" y="4390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="4428" as="sourcePoint" />
+            <mxPoint x="200" y="4427.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-21" value="计算响应值并返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1000FF;" vertex="1" parent="1">
+          <mxGeometry x="285" y="4460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="4565" as="sourcePoint" />
+            <mxPoint x="195" y="4565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCU32O3gOyeMLDOhdpKD-23" value="验证响应值，返回成功或者失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1000FF;" vertex="1" parent="1">
+          <mxGeometry x="235" y="4525" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
