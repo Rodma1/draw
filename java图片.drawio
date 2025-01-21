@@ -50,16 +50,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-3" value="新建&lt;div&gt;new&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#002AFF;" vertex="1" parent="1">
-          <mxGeometry x="320" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#002AFF;" edge="1" parent="1" source="xx2KUpP1JoKx8pHJWCPX-5" target="xx2KUpP1JoKx8pHJWCPX-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-5" value="就绪&lt;div&gt;Runnable&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#002AFF;" vertex="1" parent="1">
-          <mxGeometry x="320" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-6" value="start()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#002AFF;" vertex="1" parent="1">
-          <mxGeometry x="385" y="588" width="50" height="30" as="geometry" />
+          <mxGeometry x="385" y="620" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#002AFF;" edge="1" parent="1" source="xx2KUpP1JoKx8pHJWCPX-10" target="xx2KUpP1JoKx8pHJWCPX-11">
           <mxGeometry relative="1" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry x="320" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-11" value="死亡状态&lt;div&gt;Terminated&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#002AFF;" vertex="1" parent="1">
-          <mxGeometry x="320" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xx2KUpP1JoKx8pHJWCPX-12" value="等待&lt;div&gt;Waiting&lt;/div&gt;&lt;div&gt;&amp;nbsp;Timed Waiting&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#002AFF;" vertex="1" parent="1">
           <mxGeometry x="520" y="780" width="120" height="60" as="geometry" />
