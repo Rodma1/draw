@@ -1595,6 +1595,31 @@
         <mxCell id="WBQhmZnngFObeGBYhGAa-113" value="客户端" style="sketch=0;outlineConnect=0;fontColor=#0032FF;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
           <mxGeometry x="1220" y="5216" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-117" value="客户端" style="sketch=0;outlineConnect=0;fontColor=#0032FF;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="1340.87" y="5432" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0032FF;" edge="1" parent="1" source="WBQhmZnngFObeGBYhGAa-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="5459.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-118" value="redis服务器" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;fontColor=#0032FF;" vertex="1" parent="1">
+          <mxGeometry x="1152.87" y="5438" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0032FF;" edge="1" parent="1" source="WBQhmZnngFObeGBYhGAa-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="5460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-121" value="服务端" style="sketch=0;outlineConnect=0;fontColor=#0032FF;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="957.75" y="5430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-123" value="发布" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0032FF;" vertex="1" parent="1">
+          <mxGeometry x="1060.5" y="5430" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WBQhmZnngFObeGBYhGAa-125" value="订阅" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0032FF;" vertex="1" parent="1">
+          <mxGeometry x="1246.12" y="5430" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
