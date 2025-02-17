@@ -1620,29 +1620,50 @@
         <mxCell id="WBQhmZnngFObeGBYhGAa-125" value="订阅" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0032FF;" parent="1" vertex="1">
           <mxGeometry x="1246.12" y="5430" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="316X0Vea4dn3Zx8hTsbS-1" target="316X0Vea4dn3Zx8hTsbS-2">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="316X0Vea4dn3Zx8hTsbS-1" target="316X0Vea4dn3Zx8hTsbS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="316X0Vea4dn3Zx8hTsbS-1" target="316X0Vea4dn3Zx8hTsbS-3">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="316X0Vea4dn3Zx8hTsbS-1" target="316X0Vea4dn3Zx8hTsbS-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="316X0Vea4dn3Zx8hTsbS-1" target="316X0Vea4dn3Zx8hTsbS-4">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="316X0Vea4dn3Zx8hTsbS-1" target="316X0Vea4dn3Zx8hTsbS-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-1" value="交换机端口模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-1" value="交换机端口模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1051.5" y="5642" width="137.5" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-2" value="Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-2" value="Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1306" y="5564" width="110" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-3" value="trunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-3" value="trunk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1303.38" y="5641.5" width="110" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-4" value="hybrid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-4" value="hybrid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1303.38" y="5719" width="110" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="316X0Vea4dn3Zx8hTsbS-9" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+        <mxCell id="316X0Vea4dn3Zx8hTsbS-9" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" parent="1" vertex="1">
           <mxGeometry x="1138.9963517796632" y="5692.004411002538" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-1" value="192.168.1.102" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="1886.5" y="4814" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-2" value="192.168.1.102" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" vertex="1" parent="1">
+          <mxGeometry x="2058.25" y="4811" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1814.75" y="4736" width="337.5" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.284;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y-emzXNvuZ43whbaqpvY-1" target="Y-emzXNvuZ43whbaqpvY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-7" value="ip冲突" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=#0011FF;" vertex="1" parent="1">
+          <mxGeometry x="1961.5" y="4768" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.793;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y-emzXNvuZ43whbaqpvY-2" target="Y-emzXNvuZ43whbaqpvY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-emzXNvuZ43whbaqpvY-11" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="1898.3763517796633" y="4828.004411002538" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
