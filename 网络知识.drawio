@@ -1786,6 +1786,33 @@
         <mxCell id="0oVPyFJBymX3aTtdVuu0-11" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
           <mxGeometry x="215" y="6110" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontColor=#0077FF;" edge="1" source="0oVPyFJBymX3aTtdVuu0-13" target="0oVPyFJBymX3aTtdVuu0-17" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-13" value="A" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontColor=#0077FF;" vertex="1" parent="1">
+          <mxGeometry x="265" y="6290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontColor=#0077FF;" edge="1" source="0oVPyFJBymX3aTtdVuu0-16" target="0oVPyFJBymX3aTtdVuu0-13" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;fontColor=#0077FF;" edge="1" source="0oVPyFJBymX3aTtdVuu0-16" target="0oVPyFJBymX3aTtdVuu0-17" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-16" value="C" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontColor=#0077FF;" vertex="1" parent="1">
+          <mxGeometry x="125" y="6440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-17" value="B" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontColor=#0077FF;" vertex="1" parent="1">
+          <mxGeometry x="425" y="6440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-20" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="215" y="6410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-21" value="将A交换机作为根，防止环路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0077FF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="6270" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-22" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;strokeColor=#FF1900;fontColor=#0077FF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="6465" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
