@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="1042" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1753,11 +1753,38 @@
         <mxCell id="H7BUHlwWM3UH3Q3iMXgx-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0A12FF;" parent="1" vertex="1">
           <mxGeometry x="2143.5" y="5630.5" width="46.5" height="41.5" as="geometry" />
         </mxCell>
-        <mxCell id="Vi85yqrd0Ub4uam8pcC6-1" value="&lt;h1 class=&quot;md-end-block md-heading md-focus&quot; style=&quot;box-sizing: border-box; break-after: avoid-page; break-inside: avoid; orphans: 4; margin-top: 1rem; margin-bottom: 1rem; position: relative; line-height: 1.2; cursor: text; border-bottom: 1px solid rgb(238, 238, 238); white-space-collapse: preserve; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: start;&quot;&gt;&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;Windows CMD 命令大全&lt;/span&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#0043FF;" vertex="1" parent="1">
+        <mxCell id="Vi85yqrd0Ub4uam8pcC6-1" value="&lt;h1 class=&quot;md-end-block md-heading md-focus&quot; style=&quot;box-sizing: border-box; break-after: avoid-page; break-inside: avoid; orphans: 4; margin-top: 1rem; margin-bottom: 1rem; position: relative; line-height: 1.2; cursor: text; border-bottom: 1px solid rgb(238, 238, 238); white-space-collapse: preserve; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: start;&quot;&gt;&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;Windows CMD 命令大全&lt;/span&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#0043FF;" parent="1" vertex="1">
           <mxGeometry x="2085" y="5266" width="279" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Vi85yqrd0Ub4uam8pcC6-2" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=0;" vertex="1" parent="1">
+        <mxCell id="Vi85yqrd0Ub4uam8pcC6-2" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="2144.496351779663" y="5346.004411002538" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oVPyFJBymX3aTtdVuu0-1" target="0oVPyFJBymX3aTtdVuu0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="265" y="5990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0oVPyFJBymX3aTtdVuu0-2" target="0oVPyFJBymX3aTtdVuu0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="0oVPyFJBymX3aTtdVuu0-2" target="0oVPyFJBymX3aTtdVuu0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="125" y="6140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="425" y="6140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-9" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-150;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="6080" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-10" value="&lt;font style=&quot;color: rgb(15, 151, 255);&quot;&gt;交换机一直互相发包，导致环路&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="6198" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oVPyFJBymX3aTtdVuu0-11" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="215" y="6110" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
