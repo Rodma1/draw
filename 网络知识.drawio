@@ -3119,28 +3119,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-4" value="Internet基本服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1844.45" y="8697" width="137.5" height="36" as="geometry" />
+          <mxGeometry x="1844.45" y="8652" width="137.5" height="36" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-5" value="域名系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2088.25" y="8610" width="110" height="37" as="geometry" />
+          <mxGeometry x="2088.25" y="8565" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-6" value="远程登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1685" y="8613" width="110" height="37" as="geometry" />
+          <mxGeometry x="1676.5" y="8568" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-7" value="文件传输协议" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2085.63" y="8695.72" width="110" height="37" as="geometry" />
+          <mxGeometry x="2085.63" y="8650.72" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-8" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="1956.4963517796632" y="8690.004411002537" width="160" height="30" as="geometry" />
+          <mxGeometry x="1956.4963517796632" y="8645.004411002537" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-9" value="电子邮件服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2083.38" y="8768" width="110" height="37" as="geometry" />
+          <mxGeometry x="2083.38" y="8723" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-10" value="超文本传输协议" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1676.5" y="8768" width="110" height="37" as="geometry" />
+          <mxGeometry x="1676.5" y="8723" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="vpFwBnq14L6eDMAiW_uP-17" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="1709.9963517796632" y="8681.444411002538" width="160" height="30" as="geometry" />
+          <mxGeometry x="1709.9963517796632" y="8636.444411002538" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
