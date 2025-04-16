@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="NTImCP1-XNuZHjyEUxf_">
-    <mxGraphModel dx="795" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3223,29 +3223,47 @@
         <mxCell id="AqT2vtCvrhWngrLQu9FV-24" value="&lt;font style=&quot;color: rgb(0, 59, 255);&quot;&gt;转成电信号发送&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2015" y="9238" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="PVbR_guP_CsR4qe_-_Ok-6" target="PVbR_guP_CsR4qe_-_Ok-7" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="PVbR_guP_CsR4qe_-_Ok-6" target="PVbR_guP_CsR4qe_-_Ok-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="PVbR_guP_CsR4qe_-_Ok-6" target="PVbR_guP_CsR4qe_-_Ok-9" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="PVbR_guP_CsR4qe_-_Ok-6" target="PVbR_guP_CsR4qe_-_Ok-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="PVbR_guP_CsR4qe_-_Ok-6" target="PVbR_guP_CsR4qe_-_Ok-11" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="PVbR_guP_CsR4qe_-_Ok-6" target="PVbR_guP_CsR4qe_-_Ok-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-6" value="IPv4与IPv6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-6" value="IPv4与IPv6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="63.100000000000165" y="9557" width="137.5" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-7" value="单播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-7" value="单播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="306.9000000000001" y="9470" width="110" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-9" value="广播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-9" value="广播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="304.2800000000002" y="9555.72" width="110" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-10" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-10" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" parent="1" vertex="1">
           <mxGeometry x="175.14635177966332" y="9550.004411002537" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PVbR_guP_CsR4qe_-_Ok-11" value="组播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="PVbR_guP_CsR4qe_-_Ok-11" value="组播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="302.0300000000002" y="9628" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="u1GwtYm9n7HdqDzyBxBx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="u1GwtYm9n7HdqDzyBxBx-4" target="u1GwtYm9n7HdqDzyBxBx-5" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1GwtYm9n7HdqDzyBxBx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="u1GwtYm9n7HdqDzyBxBx-4" target="u1GwtYm9n7HdqDzyBxBx-6" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1GwtYm9n7HdqDzyBxBx-4" value="网络通信要素" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="38.100000000000165" y="9829" width="137.5" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="u1GwtYm9n7HdqDzyBxBx-5" value="网络地址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280.0000000000001" y="9760" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="u1GwtYm9n7HdqDzyBxBx-6" value="端口号/协议" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280.0000000000002" y="9880" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="u1GwtYm9n7HdqDzyBxBx-7" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="150.14635177966332" y="9822.004411002537" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
