@@ -3274,6 +3274,9 @@
         <mxCell id="U8I4efvV0DjwxN4smovh-4" value="&lt;font style=&quot;font-size: 32px; color: rgb(0, 0, 0);&quot;&gt;VS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="604.88" y="9524.72" width="70" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="U8I4efvV0DjwxN4smovh-5" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="549.9963517796633" y="9534.724411002537" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
