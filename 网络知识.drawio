@@ -3360,6 +3360,24 @@
         <mxCell id="51sDlydhepBQrJ0Xjihc-11" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
           <mxGeometry x="1020.3663517796633" y="9730.004411002537" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="51sDlydhepBQrJ0Xjihc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="51sDlydhepBQrJ0Xjihc-14" target="51sDlydhepBQrJ0Xjihc-15" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51sDlydhepBQrJ0Xjihc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" source="51sDlydhepBQrJ0Xjihc-14" target="51sDlydhepBQrJ0Xjihc-16" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51sDlydhepBQrJ0Xjihc-14" value="IP地址规划" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="868.3500000000001" y="10006" width="137.5" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="51sDlydhepBQrJ0Xjihc-15" value="CIDR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1110.25" y="9937" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="51sDlydhepBQrJ0Xjihc-16" value="VLSM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1110.2500000000002" y="10057" width="110" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="51sDlydhepBQrJ0Xjihc-17" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="980.3963517796633" y="9999.004411002537" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
