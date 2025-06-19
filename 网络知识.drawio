@@ -3592,6 +3592,9 @@
         <mxCell id="yJkMVZAJImmi9GvjsvOA-12" value="软路由" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;fontColor=#0008FF;" vertex="1" parent="1">
           <mxGeometry x="2071.06" y="9863" width="57.19" height="73.75" as="geometry" />
         </mxCell>
+        <mxCell id="yJkMVZAJImmi9GvjsvOA-16" value="公众号&amp;nbsp; 神的孩子都在歌唱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;fontColor=#003BFF;" vertex="1" parent="1">
+          <mxGeometry x="1965.6263517796629" y="9936.004411002537" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
