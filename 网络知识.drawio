@@ -3562,7 +3562,7 @@
         <mxCell id="yJkMVZAJImmi9GvjsvOA-1" value="&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;互联网&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;fontColor=#0008FF;" vertex="1" parent="1">
           <mxGeometry x="1771.71" y="9876.45" width="70" height="44.1" as="geometry" />
         </mxCell>
-        <mxCell id="yJkMVZAJImmi9GvjsvOA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0008FF;" edge="1" parent="1" source="yJkMVZAJImmi9GvjsvOA-3" target="yJkMVZAJImmi9GvjsvOA-4">
+        <mxCell id="yJkMVZAJImmi9GvjsvOA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0008FF;" edge="1" parent="1" source="yJkMVZAJImmi9GvjsvOA-3" target="yJkMVZAJImmi9GvjsvOA-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yJkMVZAJImmi9GvjsvOA-3" value="光猫" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.modem;fontColor=#0008FF;" vertex="1" parent="1">
@@ -3578,13 +3578,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yJkMVZAJImmi9GvjsvOA-4" value="交换机" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontColor=#0008FF;" vertex="1" parent="1">
-          <mxGeometry x="2058.38" y="9860" width="80" height="80" as="geometry" />
+          <mxGeometry x="2060" y="9966" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yJkMVZAJImmi9GvjsvOA-5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#0008FF;" vertex="1" parent="1">
-          <mxGeometry x="2010" y="9997" width="50" height="45" as="geometry" />
+          <mxGeometry x="2012.72" y="10091" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="yJkMVZAJImmi9GvjsvOA-6" value="NAS" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas;fontColor=#0008FF;" vertex="1" parent="1">
-          <mxGeometry x="2134.23" y="9994.25" width="46.43" height="45.75" as="geometry" />
+          <mxGeometry x="2136.95" y="10088.25" width="46.43" height="45.75" as="geometry" />
+        </mxCell>
+        <mxCell id="yJkMVZAJImmi9GvjsvOA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#0008FF;" edge="1" parent="1" source="yJkMVZAJImmi9GvjsvOA-12" target="yJkMVZAJImmi9GvjsvOA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJkMVZAJImmi9GvjsvOA-12" value="软路由" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;fontColor=#0008FF;" vertex="1" parent="1">
+          <mxGeometry x="2071.06" y="9863" width="57.19" height="73.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
