@@ -1,44 +1,68 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="28.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="hp9XhLjiZ3Tc2WLrNh84">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-2" target="z9vTQdTnK_gdMdNLEYju-3">
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-4" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="z9vTQdTnK_gdMdNLEYju-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-2" value="&lt;p style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0.8em 0px; white-space-collapse: preserve; position: relative; color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;项目集&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0.8em 0px; white-space-collapse: preserve; position: relative; color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;项目集&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-3" target="z9vTQdTnK_gdMdNLEYju-5">
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-6" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="z9vTQdTnK_gdMdNLEYju-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-3" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集 &lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集 &lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-5" target="z9vTQdTnK_gdMdNLEYju-9">
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-10" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="z9vTQdTnK_gdMdNLEYju-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-5" target="z9vTQdTnK_gdMdNLEYju-11">
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-12" edge="1" parent="1" source="z9vTQdTnK_gdMdNLEYju-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="z9vTQdTnK_gdMdNLEYju-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;信源集&amp;nbsp; 关键词集 索引集&amp;nbsp; &amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;信源集&amp;nbsp; 关键词集 索引集&amp;nbsp; &amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-9" value="这一步可以省略" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" value="这一步可以省略" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-11" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;信源表  关键词表 &lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;索引表&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;信源表  关键词表 &lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;索引表&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-13" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;多对多 &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;信源集和信源关联表  &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;关键词集和关键词关联表&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="400" width="360" height="30" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;多对多 &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;信源集和信源关联表  &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;关键词集和关键词关联表&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="310" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-14" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;多对多 &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集和信源集关联表  &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集和关键词集关联表   &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集和索引关联&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="250" width="390" height="30" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;多对多 &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集和信源集关联表  &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集和关键词集关联表   &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;数据集和索引关联&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="390" x="320" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="z9vTQdTnK_gdMdNLEYju-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;多对多&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;项目集和数据集关联表&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="150" height="60" as="geometry" />
+        <mxCell id="z9vTQdTnK_gdMdNLEYju-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;多对多&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;项目集和数据集关联表&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="320" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="460" width="460" x="190" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="信源" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据集" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="索引" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-9" edge="1" parent="1" source="GNgUwHUa3DKPlEie0gHH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GNgUwHUa3DKPlEie0gHH-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="字段1" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="关键词1" vertex="1">
+          <mxGeometry height="30" width="70" x="379" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="GNgUwHUa3DKPlEie0gHH-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="关键词2" vertex="1">
+          <mxGeometry height="30" width="70" x="490" y="775" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
