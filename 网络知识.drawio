@@ -3799,6 +3799,12 @@
         <mxCell id="p_K4W7qUX_qjCBGckFVQ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据帧" vertex="1">
           <mxGeometry height="30" width="60" x="361.75" y="11140" as="geometry" />
         </mxCell>
+        <mxCell id="p_K4W7qUX_qjCBGckFVQ-22" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" value="公众号&amp;nbsp; 神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="30" width="160" x="354.8763517796633" y="11155.004411002537" as="geometry" />
+        </mxCell>
+        <mxCell id="p_K4W7qUX_qjCBGckFVQ-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textOpacity=12;rotation=-15;" value="公众号&amp;nbsp; 神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="30" width="160" x="336.8763517796633" y="11290.004411002537" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
