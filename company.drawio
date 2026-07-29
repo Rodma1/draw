@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="c68t3vSKfqK2DSCh3U-M">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6TsZEnFVrKSILXojqg2x-14" edge="1" parent="1" source="6TsZEnFVrKSILXojqg2x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6TsZEnFVrKSILXojqg2x-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-15" edge="1" parent="1" source="6TsZEnFVrKSILXojqg2x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6TsZEnFVrKSILXojqg2x-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="后端" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="前端" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="mysql数据库" vertex="1">
+          <mxGeometry height="80" width="60" x="340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="es数据库" vertex="1">
+          <mxGeometry height="80" width="60" x="460" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="大数据" vertex="1">
+          <mxGeometry height="80" width="120" x="550" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="采集新闻" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-7" edge="1" parent="1" source="6TsZEnFVrKSILXojqg2x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6TsZEnFVrKSILXojqg2x-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1，读取dify数据" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="dify" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.将读取的dify数据写入数据库" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="将采集到的数据写入es" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6TsZEnFVrKSILXojqg2x-18" edge="1" parent="1" source="6TsZEnFVrKSILXojqg2x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.3;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="6TsZEnFVrKSILXojqg2x-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
