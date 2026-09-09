@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="580" width="1030" x="10" y="550" as="geometry" />
+          <mxGeometry height="580" width="1030" x="20" y="560" as="geometry" />
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="320" width="650" x="20" y="770" as="geometry" />
@@ -64,22 +64,16 @@
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="父智能体：数据来源" vertex="1">
           <mxGeometry height="30" width="120" x="80" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-45" edge="1" parent="1" source="8bxxXXd_4v0I7E3Jg1l7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bxxXXd_4v0I7E3Jg1l7-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="XX智能体" vertex="1">
-          <mxGeometry height="60" width="130" x="483" y="830" as="geometry" />
-        </mxCell>
-        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="子智能体" vertex="1">
-          <mxGeometry height="30" width="60" x="513" y="790" as="geometry" />
-        </mxCell>
-        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-11" edge="1" parent="1" source="8bxxXXd_4v0I7E3Jg1l7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bxxXXd_4v0I7E3Jg1l7-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="子智能体数据" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="830" as="geometry" />
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-31" edge="1" parent="1" source="8bxxXXd_4v0I7E3Jg1l7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="329" y="950" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-59" edge="1" parent="1" source="8bxxXXd_4v0I7E3Jg1l7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bxxXXd_4v0I7E3Jg1l7-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="通过给定条件筛选数据： 时间，标签，信源等" vertex="1">
           <mxGeometry height="80" width="162" x="248" y="820" as="geometry" />
@@ -89,9 +83,6 @@
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="未匹配" vertex="1">
           <mxGeometry height="30" width="60" x="333" y="910" as="geometry" />
-        </mxCell>
-        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="写入数据" vertex="1">
-          <mxGeometry height="30" width="60" x="405" y="820" as="geometry" />
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="读取每个智能体的配置信息" vertex="1">
           <mxGeometry height="30" width="100" x="333" y="560" as="geometry" />
@@ -132,7 +123,7 @@
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-51" edge="1" parent="1" source="8bxxXXd_4v0I7E3Jg1l7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8bxxXXd_4v0I7E3Jg1l7-50" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DWS层" vertex="1">
+        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DWS层： XX智能体" vertex="1">
           <mxGeometry height="60" width="120" x="780" y="880" as="geometry" />
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-46" edge="1" parent="1" source="8bxxXXd_4v0I7E3Jg1l7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8bxxXXd_4v0I7E3Jg1l7-40">
@@ -161,6 +152,12 @@
         </mxCell>
         <mxCell id="8bxxXXd_4v0I7E3Jg1l7-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="迭代每个智能体处理" vertex="1">
           <mxGeometry height="50" width="92" x="284" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="python脚本或dify特殊处理.例如报告智能体" vertex="1">
+          <mxGeometry height="30" width="150" x="850" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="8bxxXXd_4v0I7E3Jg1l7-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="写入数据：自动创建xx智能体表" vertex="1">
+          <mxGeometry height="30" width="110" x="860" y="835" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
