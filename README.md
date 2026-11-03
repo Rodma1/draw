@@ -11,6 +11,7 @@
 ```
 draw/
 ├── ai/            AI、Agent、大模型相关
+├── network/       网络工程师笔记配图
 └── (根目录)        历史遗留图，暂未归档
 ```
 
@@ -67,3 +68,9 @@ AI 相关：
 |---|---|
 | [hnzj.drawio](hnzj.drawio) | 海南槟榔（hnzj）业务 |
 | [dh.drawio](dh.drawio) | dh |
+
+## network/
+
+| 文件 | 内容 |
+|---|---|
+| [115-port-security.drawio](network/115-port-security.drawio) | |
