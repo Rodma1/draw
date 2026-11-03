@@ -73,4 +73,4 @@ AI 相关：
 
 | 文件 | 内容 |
 |---|---|
-| [115-port-security.drawio](network/115-port-security.drawio) | |
+| [115-port-security.drawio](network/115-port-security.drawio) | 端口安全完整配图（4 页）：①三种 MAC 绑定方式对比——dynamic 掉电就丢 / static 手工最稳 / sticky 折中省事；②MAC 泛洪攻击原理——表塞满→查不到目的 MAC→未知单播泛洪→交换机退化成 HUB；③实验拓扑——一台交换机两个口两套策略；④三种违规动作——protect 静默丢弃 / restrict 告警留证 / shutdown 直接断网，且华为默认就是 shutdown。每页带半透明水印。 |
