@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="uxhy60IuLCFBoVtb1Qww" name="第 1 页">
+    <mxGraphModel dx="1473" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="860" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="container" parent="1" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#5F6368;strokeWidth=2.5;dashed=0;shadow=0;" value="" vertex="1">
+          <mxGeometry height="740" width="1120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="container_title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#202124;fontFamily=Helvetica;" value="Agent Runtime（那个 while 循环）" vertex="1">
+          <mxGeometry height="34" width="520" x="72" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="container_sub" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#5F6368;fontFamily=Helvetica;" value="一个 while 循环体：模型决策 → 工具执行 → 结果回灌，直到不再要工具才停" vertex="1">
+          <mxGeometry height="22" width="700" x="74" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="llm" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FFA94D;strokeColor=#E8590C;strokeWidth=2.5;fontSize=26;fontStyle=1;fontColor=#4A1E00;fontFamily=Helvetica;shadow=0;" value="LLM" vertex="1">
+          <mxGeometry height="86" width="380" x="400" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="llm_note" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#B34700;fontFamily=Helvetica;fontStyle=2;" value="只输出意图，不执行任何操作" vertex="1">
+          <mxGeometry height="22" width="420" x="381" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="tools_group" parent="1" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#E7F6EC;strokeColor=#2F9E44;strokeWidth=2;dashed=1;" value="" vertex="1">
+          <mxGeometry height="300" width="300" x="90" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tools_title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#1B6B2C;fontFamily=Helvetica;" value="工具层" vertex="1">
+          <mxGeometry height="24" width="150" x="110" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="tool1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69DB7C;strokeColor=#2F9E44;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#0B3D14;fontFamily=Courier New;align=left;spacingLeft=16;verticalAlign=middle;" value="search_price" vertex="1">
+          <mxGeometry height="56" width="240" x="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tool2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69DB7C;strokeColor=#2F9E44;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#0B3D14;fontFamily=Courier New;align=left;spacingLeft=16;verticalAlign=middle;" value="read_file" vertex="1">
+          <mxGeometry height="56" width="240" x="120" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="tool3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69DB7C;strokeColor=#2F9E44;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#0B3D14;fontFamily=Courier New;align=left;spacingLeft=16;verticalAlign=middle;" value="send_http" vertex="1">
+          <mxGeometry height="56" width="240" x="120" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="tools_sub" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1B6B2C;fontFamily=Helvetica;" value="真干活的地方" vertex="1">
+          <mxGeometry height="24" width="240" x="120" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="mem_group" parent="1" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#1864AB;strokeWidth=2;dashed=1;" value="" vertex="1">
+          <mxGeometry height="300" width="320" x="790" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mem_title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#0B4A85;fontFamily=Helvetica;" value="记忆" vertex="1">
+          <mxGeometry height="24" width="150" x="810" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=14;fillColor=#74C0FC;strokeColor=#1864AB;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="86" width="150" x="875" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="db_label" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#083B66;fontFamily=Courier New;" value="MEMORY" vertex="1">
+          <mxGeometry height="20" width="150" x="875" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="mem1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1864AB;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#0B4A85;fontFamily=Helvetica;" value="短期 · messages" vertex="1">
+          <mxGeometry height="56" width="260" x="820" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="mem2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1864AB;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#0B4A85;fontFamily=Helvetica;" value="长期 · 向量库" vertex="1">
+          <mxGeometry height="56" width="260" x="820" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="loop" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#495057;strokeColor=#212529;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;shadow=0;" value="⎌  while 循环  ·  MAX_STEPS = 20  ·  结束条件：无 tool_call" vertex="1">
+          <mxGeometry height="48" width="1020" x="90" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="e_toolcall" edge="1" parent="1" source="llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.12;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E8590C;strokeWidth=3;dashed=1;dashPattern=10 6;endArrow=block;endFill=1;endSize=14;fontSize=14;fontStyle=1;fontColor=#E8590C;fontFamily=Courier New;labelBackgroundColor=#F2F3F5;verticalAlign=bottom;labelPosition=center;align=center;" target="tools_group" value="tool_call">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_obs" edge="1" parent="1" source="tools_group" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F9E44;strokeWidth=3;dashed=0;endArrow=block;endFill=1;endSize=14;fontSize=14;fontStyle=1;fontColor=#1B6B2C;fontFamily=Courier New;labelBackgroundColor=#F2F3F5;verticalAlign=bottom;labelPosition=center;align=center;" target="llm" value="observation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mem" edge="1" parent="1" source="llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#1864AB;strokeWidth=1.6;dashed=0;endArrow=block;startArrow=block;endFill=1;startFill=1;endSize=8;startSize=8;fontSize=13;fontStyle=1;fontColor=#0B4A85;fontFamily=Helvetica;labelBackgroundColor=#F2F3F5;verticalAlign=bottom;" target="mem_group" value="读写">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
