@@ -20,6 +20,8 @@ draw/
 |---|---|
 | [agent-runtime.drawio](ai/agent-runtime.drawio) | Agent Runtime 运行机制：LLM 决策层、工具层、记忆层、调度循环四块结构；重点用虚线 `tool_call` 与实线 `observation` 区分「模型只下单、工具真干活」 |
 | [program-workflow-agent.drawio](ai/program-workflow-agent.drawio) | 三栏对比：普通程序（串行无分支）、Workflow 编排（人画图、路径固定）、Agent（闭环、模型定路）。结论句：下一步谁说了算 |
+| [react-loop.drawio](ai/react-loop.drawio) | ReAct 调度循环：Thought → Action → Observation 顺时针四拍闭环，每圈结果 append 进 messages；两个出口——「还有工具要调吗」为否则输出答案，`steps > MAX_STEPS` 触发红色熔断强制中断 |
+| [three-patterns.drawio](ai/three-patterns.drawio) | 三种主流模式对比：ReAct（四拍环、闭环边探边试）、Plan-Execute（计划清单 + 线性执行）、Multi-Agent（Planner/Executor/Reviewer 三角互检）。每栏附代价与适用场景 |
 
 ## 根目录（历史图）
 

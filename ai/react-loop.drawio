@@ -1,0 +1,132 @@
+<mxGraphModel dx="1500" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="840" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- 背景容器 -->
+    <mxCell id="bg" value="" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#CED4DA;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="40" y="40" width="1240" height="760" as="geometry" />
+    </mxCell>
+
+    <mxCell id="title" value="ReAct 调度循环" style="text;html=1;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#212529;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="72" y="58" width="600" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="subtitle" value="四拍转一圈，每圈把结果喂回上下文，直到模型不再要工具" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontColor=#6C757D;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="74" y="94" width="700" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- ============ 四拍主循环（顺时针） ============ -->
+    <!-- Thought 上 -->
+    <mxCell id="thought" value="Thought" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FFA94D;strokeColor=#E8590C;strokeWidth=2.5;fontSize=22;fontStyle=1;fontColor=#4A1E00;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="350" y="160" width="230" height="72" as="geometry" />
+    </mxCell>
+    <mxCell id="thought_note" value="想：下一步该干啥" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#B34700;fontFamily=Helvetica;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="602" y="186" width="220" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- Action 右 -->
+    <mxCell id="action" value="Action" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#69DB7C;strokeColor=#2F9E44;strokeWidth=2.5;fontSize=22;fontStyle=1;fontColor=#0B3D14;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="640" y="330" width="230" height="72" as="geometry" />
+    </mxCell>
+    <mxCell id="action_note" value="调工具，带参数" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#1B6B2C;fontFamily=Helvetica;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="656" y="412" width="220" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- Observation 下 -->
+    <mxCell id="obs" value="Observation" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#74C0FC;strokeColor=#1864AB;strokeWidth=2.5;fontSize=21;fontStyle=1;fontColor=#04264A;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="350" y="500" width="230" height="72" as="geometry" />
+    </mxCell>
+    <mxCell id="obs_note" value="看工具返回什么" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontColor=#0B4A85;fontFamily=Helvetica;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="366" y="582" width="220" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- 主循环连线：Thought→Action（右） -->
+    <mxCell id="e_ta" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E8590C;strokeWidth=3;endArrow=block;endFill=1;endSize=14;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="thought" target="action">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- Action→Observation（下） -->
+    <mxCell id="e_ao" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2F9E44;strokeWidth=3;endArrow=block;endFill=1;endSize=14;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" edge="1" parent="1" source="action" target="obs">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- Observation→Thought（回） -->
+    <mxCell id="e_ot" value="回到想 · 下一轮" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1864AB;strokeWidth=3;endArrow=block;endFill=1;endSize=14;exitX=0;exitY=0.5;entryX=0;entryY=0.5;fontSize=13;fontStyle=1;fontColor=#0B4A85;fontFamily=Helvetica;labelBackgroundColor=#F8F9FA;" edge="1" parent="1" source="obs" target="thought">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="290" y="536" />
+          <mxPoint x="290" y="196" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- 循环图标 -->
+    <mxCell id="loop_icon" value="↻" style="text;html=1;align=center;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#1864AB;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="240" y="352" width="40" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ============ 出口①：还有工具要调吗 ============ -->
+    <mxCell id="gate" value="还有工具要调吗？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DEE2E6;strokeColor=#6C757D;strokeWidth=2.5;fontSize=14;fontStyle=1;fontColor=#212529;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="930" y="316" width="150" height="100" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e_a_gate" value="每轮末" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6C757D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontSize=12;fontStyle=1;fontColor=#495057;fontFamily=Helvetica;labelBackgroundColor=#F8F9FA;" edge="1" parent="1" source="action" target="gate">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="done" value="结束，输出答案" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6C757D;strokeWidth=2.5;fontSize=15;fontStyle=1;fontColor=#212529;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="950" y="170" width="230" height="62" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e_gate_done" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6C757D;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=0.5;exitY=0;entryX=0.5;entryY=1;fontSize=14;fontStyle=1;fontColor=#495057;fontFamily=Helvetica;labelBackgroundColor=#F8F9FA;" edge="1" parent="1" source="gate" target="done">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e_gate_yes" value="是 → 再转一圈" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6C757D;strokeWidth=2.5;dashed=1;endArrow=block;endFill=1;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;fontStyle=1;fontColor=#495057;fontFamily=Helvetica;labelBackgroundColor=#F8F9FA;" edge="1" parent="1" source="gate" target="obs">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1005" y="470" />
+          <mxPoint x="465" y="470" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- ============ 出口②：熔断 ============ -->
+    <mxCell id="fuse_gate" value="steps &gt; MAX_STEPS" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFC9C9;strokeColor=#C92A2A;strokeWidth=2.5;fontSize=13;fontStyle=1;fontColor=#5C0A0A;fontFamily=Courier New;" vertex="1" parent="1">
+      <mxGeometry x="120" y="700" width="190" height="80" as="geometry" />
+    </mxCell>
+
+    <mxCell id="fuse" value="强制中断" style="rounded=1;arcSize=22;whiteSpace=wrap;html=1;fillColor=#FA5252;strokeColor=#C92A2A;strokeWidth=2.5;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="360" y="706" width="170" height="62" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e_fuse" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#C92A2A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=13;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="fuse_gate" target="fuse">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e_obs_fuse" value="步数超限" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#C92A2A;strokeWidth=2;dashed=1;dashPattern=6 4;endArrow=block;endFill=1;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontSize=12;fontStyle=1;fontColor=#A61E1E;fontFamily=Helvetica;labelBackgroundColor=#F8F9FA;" edge="1" parent="1" source="obs" target="fuse_gate">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ============ 中间留白那句话 ============ -->
+    <mxCell id="core_note" value="每步结果都 append 进 messages&lt;br&gt;下一轮就靠它做判断" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F3F5;strokeColor=#ADB5BD;strokeWidth=2;dashed=1;dashPattern=8 5;fontSize=15;fontStyle=1;fontColor=#343A40;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="352" y="320" width="226" height="116" as="geometry" />
+    </mxCell>
+
+    <!-- 配色图例 -->
+    <mxCell id="legend1" value="橙 = 决策" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFA94D;strokeColor=#E8590C;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#4A1E00;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="940" y="620" width="100" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="legend2" value="绿 = 执行" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#69DB7C;strokeColor=#2F9E44;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#0B3D14;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="620" width="100" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="legend3" value="蓝 = 数据" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#74C0FC;strokeColor=#1864AB;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#04264A;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="1160" y="620" width="100" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="legend4" value="红 = 熔断" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FA5252;strokeColor=#C92A2A;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="660" width="100" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="legend5" value="灰 = 出口" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#DEE2E6;strokeColor=#6C757D;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#212529;fontFamily=Helvetica;" vertex="1" parent="1">
+      <mxGeometry x="940" y="660" width="100" height="30" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
