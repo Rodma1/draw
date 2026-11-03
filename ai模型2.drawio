@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="5eBxIZE1Knj6xyNMTd8x" name="第 1 页">
+    <mxGraphModel dx="1704" dy="905" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1520" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="col1" parent="1" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#888780;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="440" width="466" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col2" parent="1" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#E6F1FB;strokeColor=#378ADD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="440" width="466" x="527" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col3" parent="1" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#BA7517;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="440" width="466" x="1014" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#2C2C2A;fontFamily=Helvetica;" value="普通程序" vertex="1">
+          <mxGeometry height="30" width="466" x="40" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#042C53;fontFamily=Helvetica;" value="Workflow 编排" vertex="1">
+          <mxGeometry height="30" width="466" x="527" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=21;fontStyle=1;fontColor=#412402;fontFamily=Helvetica;" value="Agent" vertex="1">
+          <mxGeometry height="30" width="466" x="1014" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#D3D1C7;strokeColor=#5F5E5A;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#2C2C2A;fontFamily=Helvetica;" value="A" vertex="1">
+          <mxGeometry height="66" width="76" x="76" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#D3D1C7;strokeColor=#5F5E5A;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#2C2C2A;fontFamily=Helvetica;" value="B" vertex="1">
+          <mxGeometry height="66" width="76" x="234" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#D3D1C7;strokeColor=#5F5E5A;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#2C2C2A;fontFamily=Helvetica;" value="C" vertex="1">
+          <mxGeometry height="66" width="76" x="392" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="l_a1b1" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5F5E5A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="b1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_b1c1" edge="1" parent="1" source="b1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#5F5E5A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=15;fontStyle=2;fontColor=#444441;fontFamily=Helvetica;align=center;verticalAlign=middle;" value="流程在人写代码时就定死了" vertex="1">
+          <mxGeometry height="40" width="406" x="70" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tag1" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#B4B2A9;strokeColor=#5F5E5A;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#2C2C2A;fontFamily=Helvetica;" value="写死 · 无分支" vertex="1">
+          <mxGeometry height="32" width="160" x="193" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#B5D4F4;strokeColor=#185FA5;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#042C53;fontFamily=Helvetica;" value="A" vertex="1">
+          <mxGeometry height="66" width="72" x="560" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#85B7EB;strokeColor=#185FA5;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="98" width="88" x="692" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#B5D4F4;strokeColor=#185FA5;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#042C53;fontFamily=Helvetica;" value="C" vertex="1">
+          <mxGeometry height="62" width="76" x="866" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#B5D4F4;strokeColor=#185FA5;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#042C53;fontFamily=Helvetica;" value="D" vertex="1">
+          <mxGeometry height="62" width="76" x="866" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="l_a2d2" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#185FA5;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_d2c2" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#185FA5;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=0.5;exitY=0;entryX=0;entryY=0.5;fontSize=13;fontStyle=1;fontColor=#0C447C;fontFamily=Helvetica;labelBackgroundColor=#E6F1FB;labelPlacement=auto;" target="c2" value="为真">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_d2e2" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#185FA5;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=0.5;exitY=1;entryX=0;entryY=0.5;fontSize=13;fontStyle=1;fontColor=#0C447C;fontFamily=Helvetica;labelBackgroundColor=#E6F1FB;labelPlacement=auto;" target="e2" value="为假">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=15;fontStyle=2;fontColor=#0C447C;fontFamily=Helvetica;align=center;verticalAlign=middle;" value="人画好图，路径固定" vertex="1">
+          <mxGeometry height="40" width="406" x="557" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tag2" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#85B7EB;strokeColor=#185FA5;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#042C53;fontFamily=Helvetica;" value="分支 · 但路是人定的" vertex="1">
+          <mxGeometry height="32" width="196" x="673" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="think" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#FAC775;strokeColor=#854F0B;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#412402;fontFamily=Helvetica;" value="想" vertex="1">
+          <mxGeometry height="58" width="94" x="1058" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="act" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#FAC775;strokeColor=#854F0B;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#412402;fontFamily=Helvetica;" value="调工具" vertex="1">
+          <mxGeometry height="58" width="108" x="1196" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="see" parent="1" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#FAC775;strokeColor=#854F0B;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#412402;fontFamily=Helvetica;" value="看结果" vertex="1">
+          <mxGeometry height="58" width="108" x="1348" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="l_think_act" edge="1" parent="1" source="think" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#BA7517;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="act">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_act_see" edge="1" parent="1" source="act" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#BA7517;strokeWidth=2.5;endArrow=block;endFill=1;endSize=12;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="see">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_loop" edge="1" parent="1" source="see" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#D85A30;strokeWidth=3;endArrow=block;endFill=1;endSize=13;exitX=0.5;exitY=1;entryX=0.5;entryY=1;fontSize=13;fontStyle=1;fontColor=#993C1D;fontFamily=Helvetica;labelBackgroundColor=#FAEEDA;labelPlacement=auto;" target="think" value="结果回灌 · 再来一轮">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1402" y="290" />
+              <mxPoint x="1105" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loop_icon" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=26;fontStyle=1;fontColor=#D85A30;fontFamily=Helvetica;" value="↻" vertex="1">
+          <mxGeometry height="34" width="34" x="1237" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="llm_core" parent="1" style="rounded=1;arcSize=45;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E8590C;strokeWidth=2.5;dashed=1;dashPattern=6 4;fontSize=15;fontStyle=1;fontColor=#B34700;fontFamily=Helvetica;" value="LLM 决定下一步" vertex="1">
+          <mxGeometry height="46" width="242" x="1124" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=15;fontStyle=2;fontColor=#854F0B;fontFamily=Helvetica;align=center;verticalAlign=middle;" value="模型运行时自己决定" vertex="1">
+          <mxGeometry height="34" width="406" x="1044" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="tag3" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#EF9F27;strokeColor=#854F0B;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#412402;fontFamily=Helvetica;" value="闭环 · 下一步模型定" vertex="1">
+          <mxGeometry height="32" width="176" x="1168" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="banner" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#5F5E5A;strokeColor=#2C2C2A;strokeWidth=2.5;" value="" vertex="1">
+          <mxGeometry height="96" width="1440" x="40" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="banner_text" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=30;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=1;" value="差别只在这一句 —— &lt;b style=&quot;font-size:48px;color:#FFC078;&quot;&gt;下一步谁说了算&lt;/b&gt;" vertex="1">
+          <mxGeometry height="96" width="1440" x="40" y="548" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
