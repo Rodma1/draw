@@ -74,3 +74,4 @@ AI 相关：
 | 文件 | 内容 |
 |---|---|
 | [115-port-security.drawio](network/115-port-security.drawio) | 端口安全完整配图（4 页）：①三种 MAC 绑定方式对比——dynamic 掉电就丢 / static 手工最稳 / sticky 折中省事；②MAC 泛洪攻击原理——表塞满→查不到目的 MAC→未知单播泛洪→交换机退化成 HUB；③实验拓扑——一台交换机两个口两套策略；④三种违规动作——protect 静默丢弃 / restrict 告警留证 / shutdown 直接断网，且华为默认就是 shutdown。每页带半透明水印。 |
+| [116-ipsec-vpn.drawio](network/116-ipsec-vpn.drawio) | IPsec VPN 全套配图（3 页）：①四个组件关系——ACL 圈流量 / 安全提议定算法 / IKE 协商密钥 / 策略做组装 / 接口才生效，三条虚线汇入策略体现「策略是汇总者」；②IKE 两阶段协商——阶段1 建 IKE SA，阶段2 在已加密的通道里建 IPsec SA；③实验拓扑——总部 R1 与分支 R2 跨 Internet，物理走公网逻辑走加密隧道。另含原 PDF 资料的 3 处勘误（IKE 版本命令、R2 前缀写错、注释与命令矛盾）。 |
