@@ -100,13 +100,9 @@
         <mxCell id="sum" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=16;fontStyle=1;align=center;" value="ACL 圈流量　·　提议定算法　·　IKE 换密钥　·　策略做组装　·　接口才生效" vertex="1">
           <mxGeometry height="56" width="1090" x="45" y="545" as="geometry" />
         </mxCell>
-        <mxCell id="wm" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" value="公众号:神的孩子都在歌唱" vertex="1">
-          <mxGeometry height="34" width="179" x="979" y="594" as="geometry" />
-        </mxCell>
-        <mxCell id="5H4BueJWCp8BolRQ4Kr4-1" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" value="公众号:神的孩子都在歌唱" vertex="1">
-          <mxGeometry height="34" width="179" x="450" y="340" as="geometry" />
-        </mxCell>
-      </root>
+        
+        
+      <mxCell id="wm" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" vertex="1" parent="1"><mxGeometry x="979" y="594" width="179" height="34" as="geometry"/></mxCell><mxCell id="wm_mid" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" vertex="1" parent="1"><mxGeometry x="449" y="339" width="179" height="34" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
   <diagram id="pg2" name="配图2-IKE两阶段协商">
@@ -162,10 +158,8 @@
         <mxCell id="lock1" value="🔒 此后消息已加密" style="text;html=1;fontSize=12;fontColor=#2D7600;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="700" y="405" width="175" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="wm" value="神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=6;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="779" y="734" width="179" height="34" as="geometry" />
-        </mxCell>
-      </root>
+        
+      <mxCell id="wm" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" vertex="1" parent="1"><mxGeometry x="779" y="734" width="179" height="34" as="geometry"/></mxCell><mxCell id="wm_mid" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" vertex="1" parent="1"><mxGeometry x="373" y="414" width="179" height="34" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
   <diagram id="pg3" name="配图3-实验拓扑">
@@ -242,10 +236,8 @@
         <mxCell id="tip" value="物理路径走公网，逻辑上是一条加密隧道" style="text;html=1;fontSize=12;fontColor=#6B7280;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="400" y="440" width="420" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="wm" value="神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=6;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1019" y="494" width="179" height="34" as="geometry" />
-        </mxCell>
-      </root>
+        
+      <mxCell id="wm" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" vertex="1" parent="1"><mxGeometry x="1019" y="494" width="179" height="34" as="geometry"/></mxCell><mxCell id="wm_mid" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" vertex="1" parent="1"><mxGeometry x="464" y="286" width="179" height="34" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
