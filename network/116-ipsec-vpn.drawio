@@ -119,10 +119,10 @@
         <mxCell id="hd_l" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#e5e7eb;" vertex="1" parent="1">
           <mxGeometry x="45" y="92" width="890" height="2" as="geometry" />
         </mxCell>
-        <mxCell id="r1" value="R1 总部&lt;br&gt;168.1.1.1" style="sketch=0;verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_router;fillColor=#FAFAFA;strokeColor=#005073;fontColor=#1F2937;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="r1" value="R1 总部&lt;br&gt;168.1.1.1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.networks.router;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2;fontColor=#0066CC;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="130" y="115" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r2" value="R2 分支&lt;br&gt;167.1.1.1" style="sketch=0;verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_router;fillColor=#FAFAFA;strokeColor=#005073;fontColor=#1F2937;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="r2" value="R2 分支&lt;br&gt;167.1.1.1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.networks.router;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2;fontColor=#0066CC;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="760" y="115" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b1" value="阶段一：建立 IKE SA" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
@@ -185,7 +185,7 @@
         <mxCell id="pc2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#1808FF;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="145" y="265" width="55" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="r1" value="R1" style="sketch=0;verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_router;fillColor=#FAFAFA;strokeColor=#005073;fontColor=#1F2937;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="r1" value="R1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.networks.router;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2;fontColor=#0066CC;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="330" y="185" width="75" height="62" as="geometry" />
         </mxCell>
         <mxCell id="r1a" value="内网口&lt;br&gt;172.22.1.100" style="text;html=1;fontSize=11;fontColor=#6B7280;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
@@ -200,7 +200,7 @@
         <mxCell id="lock" value="🔒" style="text;html=1;fontSize=28;fontColor=#6b7280;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="590" y="275" width="50" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="r2" value="R2" style="sketch=0;verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_router;fillColor=#FAFAFA;strokeColor=#005073;fontColor=#1F2937;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="r2" value="R2" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.networks.router;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2;fontColor=#0066CC;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="830" y="185" width="75" height="62" as="geometry" />
         </mxCell>
         <mxCell id="r2a" value="公网口&lt;br&gt;167.1.1.1" style="text;html=1;fontSize=11;fontColor=#6B7280;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
