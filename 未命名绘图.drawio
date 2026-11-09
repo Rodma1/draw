@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="ete3pATjghuKg97E-zOR" name="第 1 页">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hd_t" parent="1" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" value="全双工为什么要乘 2" vertex="1">
+          <mxGeometry height="34" width="870" x="45" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_s" parent="1" style="text;html=1;fontSize=13;fontColor=#6B7280;fontStyle=0;align=left;verticalAlign=middle;" value="收发是两条独立通道，一个千兆口实际占背板 2 Gbps" vertex="1">
+          <mxGeometry height="22" width="870" x="45" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_l" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#e5e7eb;" value="" vertex="1">
+          <mxGeometry height="2" width="870" x="45" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="swa" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.networks.switch;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2;fontColor=#0066CC;fontSize=12;" value="交换机 A" vertex="1">
+          <mxGeometry height="70" width="90" x="130" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="swb" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.networks.switch;fillColor=#CCCCCC;strokeColor=#6881B3;strokeWidth=2;fontColor=#0066CC;fontSize=12;" value="交换机 B" vertex="1">
+          <mxGeometry height="70" width="90" x="740" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="up1" edge="1" parent="1" source="swa" style="endArrow=block;html=1;strokeWidth=3;strokeColor=#82b366;fontColor=#2D7600;labelBackgroundColor=default;fontSize=13;" target="swb" value="发送 1 Gbps">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dn1" edge="1" parent="1" source="swb" style="endArrow=block;html=1;strokeWidth=3;strokeColor=#6c8ebf;fontColor=#007EA8;labelBackgroundColor=default;fontSize=13;" target="swa" value="接收 1 Gbps">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mid" parent="1" style="text;html=1;fontSize=14;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" value="两条通道同时工作，互不干扰" vertex="1">
+          <mxGeometry height="26" width="300" x="330" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="concl" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;fontStyle=1;align=center;" value="N 个千兆口  →  背板占用 N × 2 Gbps" vertex="1">
+          <mxGeometry height="54" width="560" x="200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wm" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" value="公众号:神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="34" width="179" x="655" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="wm_mid" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" value="公众号:神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="34" width="179" x="365" y="276" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
