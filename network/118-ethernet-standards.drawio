@@ -43,7 +43,7 @@
         <mxCell id="cs1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3u" vertex="1">
           <mxGeometry height="36" width="210" x="370" y="218" as="geometry" />
         </mxCell>
-        <mxCell id="cd1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;align=center;" value="100Base-TX 双绞线 100 m 100Base-FX 光纤 2 km" vertex="1">
+        <mxCell id="cd1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;align=center;" value="100Base-TX 双绞线 100 m&amp;nbsp;&lt;div&gt;100Base-FX 光纤 2 km&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="210" x="370" y="275" as="geometry" />
         </mxCell>
         <mxCell id="a1" edge="1" parent="1" source="c1" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" target="c2" value="">
@@ -61,7 +61,7 @@
         <mxCell id="cs2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3z + 802.3ab" vertex="1">
           <mxGeometry height="36" width="210" x="670" y="218" as="geometry" />
         </mxCell>
-        <mxCell id="cd2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;fontStyle=0;align=center;" value="光纤：1000Base-SX/LX 双绞线：1000Base-T" vertex="1">
+        <mxCell id="cd2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;fontStyle=0;align=center;" value="光纤：1000Base-SX/LX&amp;nbsp;&lt;div&gt;双绞线：1000Base-T&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="210" x="670" y="275" as="geometry" />
         </mxCell>
         <mxCell id="a2" edge="1" parent="1" source="c2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" target="c3" value="">
@@ -79,7 +79,7 @@
         <mxCell id="cs3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3ae" vertex="1">
           <mxGeometry height="36" width="210" x="970" y="218" as="geometry" />
         </mxCell>
-        <mxCell id="cd3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;fontStyle=0;align=center;" value="10GBase-SR 多模 300 m 10GBase-LR 单模 10 km 10GBase-ER 单模 40 km" vertex="1">
+        <mxCell id="cd3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;fontStyle=0;align=center;" value="10GBase-SR 多模 300 m&amp;nbsp;&lt;div&gt;10GBase-LR 单模 10 km&amp;nbsp;&lt;/div&gt;&lt;div&gt;10GBase-ER 单模 40 km&lt;/div&gt;" vertex="1">
           <mxGeometry height="195" width="210" x="970" y="275" as="geometry" />
         </mxCell>
         <mxCell id="split" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;align=center;" value="唯独千兆拆成两个标准号：802.3z 管光纤，802.3ab 管双绞线" vertex="1">
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pg2" name="配图2-标准名拆解">
-    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="620" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="620" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
