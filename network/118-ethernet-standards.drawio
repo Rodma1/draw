@@ -1,9 +1,186 @@
-<mxfile host="app.diagrams.net" agent="Hermes" version="29.2.7" type="device"><diagram id="pg1" name="配图1-四代标准演进"><mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="620" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="hd_t" value="四代以太网标准演进" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="45" y="22" width="1150" height="34" as="geometry"/></mxCell><mxCell id="hd_s" value="10M → 100M → 1000M → 10G，按速率分代记最省事" style="text;html=1;fontSize=13;fontColor=#6B7280;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="45" y="58" width="1150" height="22" as="geometry"/></mxCell><mxCell id="hd_l" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#e5e7eb;" vertex="1" parent="1"><mxGeometry x="45" y="92" width="1150" height="2" as="geometry"/></mxCell><mxCell id="c0" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" vertex="1" parent="1"><mxGeometry x="45" y="150" width="260" height="340" as="geometry"/></mxCell><mxCell id="cb0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="45" y="150" width="260" height="6" as="geometry"/></mxCell><mxCell id="cr0" value="10 Mbps" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="45" y="170" width="260" height="34" as="geometry"/></mxCell><mxCell id="cs0" value="IEEE 802.3i" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="70" y="218" width="210" height="36" as="geometry"/></mxCell><mxCell id="cd0" value="10Base-T
-双绞线 100 m" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="70" y="275" width="210" height="195" as="geometry"/></mxCell><mxCell id="a0" value="" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" edge="1" parent="1" source="c0" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="c1" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" vertex="1" parent="1"><mxGeometry x="345" y="150" width="260" height="340" as="geometry"/></mxCell><mxCell id="cb1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="345" y="150" width="260" height="6" as="geometry"/></mxCell><mxCell id="cr1" value="100 Mbps" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="345" y="170" width="260" height="34" as="geometry"/></mxCell><mxCell id="cs1" value="IEEE 802.3u" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="370" y="218" width="210" height="36" as="geometry"/></mxCell><mxCell id="cd1" value="100Base-TX 双绞线 100 m
-100Base-FX 光纤 2 km" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="370" y="275" width="210" height="195" as="geometry"/></mxCell><mxCell id="a1" value="" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" edge="1" parent="1" source="c1" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="c2" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" vertex="1" parent="1"><mxGeometry x="645" y="150" width="260" height="340" as="geometry"/></mxCell><mxCell id="cb2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="645" y="150" width="260" height="6" as="geometry"/></mxCell><mxCell id="cr2" value="1000 Mbps" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="645" y="170" width="260" height="34" as="geometry"/></mxCell><mxCell id="cs2" value="IEEE 802.3z + 802.3ab" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="670" y="218" width="210" height="36" as="geometry"/></mxCell><mxCell id="cd2" value="光纤：1000Base-SX/LX
-双绞线：1000Base-T" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="670" y="275" width="210" height="195" as="geometry"/></mxCell><mxCell id="a2" value="" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" edge="1" parent="1" source="c2" target="c3"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="c3" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" vertex="1" parent="1"><mxGeometry x="945" y="150" width="260" height="340" as="geometry"/></mxCell><mxCell id="cb3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d79b00;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="945" y="150" width="260" height="6" as="geometry"/></mxCell><mxCell id="cr3" value="10 Gbps" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="945" y="170" width="260" height="34" as="geometry"/></mxCell><mxCell id="cs3" value="IEEE 802.3ae" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="970" y="218" width="210" height="36" as="geometry"/></mxCell><mxCell id="cd3" value="10GBase-SR 多模 300 m
-10GBase-LR 单模 10 km
-10GBase-ER 单模 40 km" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="970" y="275" width="210" height="195" as="geometry"/></mxCell><mxCell id="split" value="唯独千兆拆成两个标准号：802.3z 管光纤，802.3ab 管双绞线" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="645" y="505" width="260" height="62" as="geometry"/></mxCell><mxCell id="sl" value="" style="endArrow=block;html=1;strokeWidth=1.5;strokeColor=#d6b656;" edge="1" parent="1" source="c2" target="split"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="wm" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" vertex="1" parent="1"><mxGeometry x="1039" y="574" width="179" height="34" as="geometry"/></mxCell><mxCell id="wm_mid" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" vertex="1" parent="1"><mxGeometry x="472" y="329" width="179" height="34" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="pg2" name="配图2-标准名拆解"><mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="620" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="hd_t" value="标准名怎么拆" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="45" y="22" width="910" height="34" as="geometry"/></mxCell><mxCell id="hd_s" value="1000Base-SX 三个部分各有含义，看懂就不用死背" style="text;html=1;fontSize=13;fontColor=#6B7280;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="45" y="58" width="910" height="22" as="geometry"/></mxCell><mxCell id="hd_l" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#e5e7eb;" vertex="1" parent="1"><mxGeometry x="45" y="92" width="910" height="2" as="geometry"/></mxCell><mxCell id="p1" value="1000" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=26;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="180" y="160" width="150" height="70" as="geometry"/></mxCell><mxCell id="p2" value="Base" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#9CA3AF;fontSize=26;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="330" y="160" width="150" height="70" as="geometry"/></mxCell><mxCell id="p3" value="-SX" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=26;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="480" y="160" width="190" height="70" as="geometry"/></mxCell><mxCell id="l1" value="" style="endArrow=block;html=1;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="p1" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="l2" value="" style="endArrow=block;html=1;strokeColor=#9CA3AF;strokeWidth=2;" edge="1" parent="1" source="p2" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="l3" value="" style="endArrow=block;html=1;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="p3" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="n1" value="速率
-1000 Mbps" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=13;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="130" y="290" width="200" height="76" as="geometry"/></mxCell><mxCell id="n2" value="Base
-基带传输（不调制）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9CA3AF;fontSize=13;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="340" y="290" width="200" height="76" as="geometry"/></mxCell><mxCell id="n3" value="S = 短波 850nm
-X = 4B/5B 编码" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=13;fontStyle=0;align=center;" vertex="1" parent="1"><mxGeometry x="560" y="290" width="220" height="76" as="geometry"/></mxCell><mxCell id="sh" value="常见后缀速查" style="text;html=1;fontSize=15;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="60" y="420" width="200" height="26" as="geometry"/></mxCell><mxCell id="s0" value="T" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="60" y="455" width="70" height="60" as="geometry"/></mxCell><mxCell id="sv0" value="双绞线" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="60" y="520" width="70" height="26" as="geometry"/></mxCell><mxCell id="s1" value="F" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="240" y="455" width="70" height="60" as="geometry"/></mxCell><mxCell id="sv1" value="光纤" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="240" y="520" width="70" height="26" as="geometry"/></mxCell><mxCell id="s2" value="S" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="420" y="455" width="70" height="60" as="geometry"/></mxCell><mxCell id="sv2" value="短波 850" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="420" y="520" width="70" height="26" as="geometry"/></mxCell><mxCell id="s3" value="L" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="600" y="455" width="70" height="60" as="geometry"/></mxCell><mxCell id="sv3" value="长波 1310" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="600" y="520" width="70" height="26" as="geometry"/></mxCell><mxCell id="s4" value="E" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="780" y="455" width="70" height="60" as="geometry"/></mxCell><mxCell id="sv4" value="超长波 1550" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="780" y="520" width="70" height="26" as="geometry"/></mxCell><mxCell id="err" value="注意：SX 配的是多模光纤，不是单模 —— 有些资料写成单模，是错的" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="460" y="455" width="490" height="70" as="geometry"/></mxCell><mxCell id="wm" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" vertex="1" parent="1"><mxGeometry x="799" y="574" width="179" height="34" as="geometry"/></mxCell><mxCell id="wm_mid" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" vertex="1" parent="1"><mxGeometry x="381" y="329" width="179" height="34" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" agent="Hermes" pages="2">
+  <diagram id="pg1" name="配图1-四代标准演进">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hd_t" parent="1" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" value="四代以太网标准演进" vertex="1">
+          <mxGeometry height="34" width="1150" x="45" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_s" parent="1" style="text;html=1;fontSize=13;fontColor=#6B7280;fontStyle=0;align=left;verticalAlign=middle;" value="10M → 100M → 1000M → 10G，按速率分代记最省事" vertex="1">
+          <mxGeometry height="22" width="1150" x="45" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_l" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#e5e7eb;" value="" vertex="1">
+          <mxGeometry height="2" width="1150" x="45" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="c0" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" value="" vertex="1">
+          <mxGeometry height="340" width="260" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cb0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="6" width="260" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cr0" parent="1" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" value="10 Mbps" vertex="1">
+          <mxGeometry height="34" width="260" x="45" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cs0" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3i" vertex="1">
+          <mxGeometry height="36" width="210" x="70" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="cd0" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;align=center;" value="10Base-T 双绞线 100 m" vertex="1">
+          <mxGeometry height="195" width="210" x="70" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" edge="1" parent="1" source="c0" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" target="c1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" value="" vertex="1">
+          <mxGeometry height="340" width="260" x="345" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="6" width="260" x="345" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cr1" parent="1" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" value="100 Mbps" vertex="1">
+          <mxGeometry height="34" width="260" x="345" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cs1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3u" vertex="1">
+          <mxGeometry height="36" width="210" x="370" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="cd1" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;align=center;" value="100Base-TX 双绞线 100 m 100Base-FX 光纤 2 km" vertex="1">
+          <mxGeometry height="195" width="210" x="370" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="c1" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" value="" vertex="1">
+          <mxGeometry height="340" width="260" x="645" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cb2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="6" width="260" x="645" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cr2" parent="1" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" value="1000 Mbps" vertex="1">
+          <mxGeometry height="34" width="260" x="645" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cs2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3z + 802.3ab" vertex="1">
+          <mxGeometry height="36" width="210" x="670" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="cd2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=12;fontStyle=0;align=center;" value="光纤：1000Base-SX/LX 双绞线：1000Base-T" vertex="1">
+          <mxGeometry height="195" width="210" x="670" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="c2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#374151;labelBackgroundColor=default;fontSize=12;fontColor=#6B7280;" target="c3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e0e0e0;" value="" vertex="1">
+          <mxGeometry height="340" width="260" x="945" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cb3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d79b00;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="6" width="260" x="945" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cr3" parent="1" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=center;verticalAlign=middle;" value="10 Gbps" vertex="1">
+          <mxGeometry height="34" width="260" x="945" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cs3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;align=center;" value="IEEE 802.3ae" vertex="1">
+          <mxGeometry height="36" width="210" x="970" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="cd3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=12;fontStyle=0;align=center;" value="10GBase-SR 多模 300 m 10GBase-LR 单模 10 km 10GBase-ER 单模 40 km" vertex="1">
+          <mxGeometry height="195" width="210" x="970" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="split" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;align=center;" value="唯独千兆拆成两个标准号：802.3z 管光纤，802.3ab 管双绞线" vertex="1">
+          <mxGeometry height="62" width="260" x="645" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="sl" edge="1" parent="1" source="c2" style="endArrow=block;html=1;strokeWidth=1.5;strokeColor=#d6b656;" target="split" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wm" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" value="公众号:神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="34" width="179" x="985.5" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="wm_mid" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" value="公众号:神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="34" width="179" x="472" y="329" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg2" name="配图2-标准名拆解">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hd_t" value="标准名怎么拆" style="text;html=1;fontSize=22;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="22" width="910" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_s" value="1000Base-SX 三个部分各有含义，看懂就不用死背" style="text;html=1;fontSize=13;fontColor=#6B7280;fontStyle=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="58" width="910" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_l" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#e5e7eb;" vertex="1" parent="1">
+          <mxGeometry x="45" y="92" width="910" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="1000" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=26;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="Base" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#9CA3AF;fontSize=26;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="-SX" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=26;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" value="" style="endArrow=block;html=1;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="p1" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" value="" style="endArrow=block;html=1;strokeColor=#9CA3AF;strokeWidth=2;" edge="1" parent="1" source="p2" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" value="" style="endArrow=block;html=1;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="p3" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="速率 1000 Mbps" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=13;fontStyle=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="200" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Base 基带传输（不调制）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9CA3AF;fontSize=13;fontStyle=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="200" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="S = 短波 850nm X = 4B/5B 编码" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=13;fontStyle=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="220" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="sh" value="常见后缀速查" style="text;html=1;fontSize=15;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s0" value="T" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="455" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv0" value="双绞线" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="F" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="455" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv1" value="光纤" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="S" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="455" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv2" value="短波 850" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="L" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="455" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv3" value="长波 1310" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="E" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#00BEF2;strokeColor=#007EA8;fontSize=20;fontStyle=1;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="780" y="455" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv4" value="超长波 1550" style="text;html=1;fontSize=12;fontColor=#1F2937;fontStyle=0;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="780" y="520" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="err" value="注意：SX 配的是多模光纤，不是单模 —— 有些资料写成单模，是错的" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="455" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wm" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=70;" vertex="1" parent="1">
+          <mxGeometry x="799" y="574" width="179" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wm_mid" value="公众号:神的孩子都在歌唱" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="381" y="329" width="179" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
