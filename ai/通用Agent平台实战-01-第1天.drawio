@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Hermes" pages="2">
+  <diagram id="p1" name="配图1-三件套关系">
+    <mxGraphModel dx="1814" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="你 · 调用方" vertex="1">
+          <mxGeometry height="60" width="140" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="Runner 工人" vertex="1">
+          <mxGeometry height="60" width="140" x="329" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF6E0;strokeColor=#E8C36A;fontColor=#1B1F24;fontSize=14;" value="模型要调工具吗?" vertex="1">
+          <mxGeometry height="90" width="160" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="Result 交货单&lt;br&gt;final_output" vertex="1">
+          <mxGeometry height="60" width="140" x="295" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="执行工具" vertex="1">
+          <mxGeometry height="60" width="140" x="10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;verticalAlign=bottom;labelPlacement=auto;" target="B" value="Agent 配置单 + 用户的话">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-C" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="C" value="进入运行循环">
+          <mxGeometry relative="1" x="0.2406" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="30" />
+              <mxPoint x="486" y="109" />
+              <mxPoint x="80" y="109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-D" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="D" value="不用">
+          <mxGeometry relative="1" x="-0.0811" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-E" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="E" value="要">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-C" edge="1" parent="1" source="E" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="C" value="工具结果喂回模型">
+          <mxGeometry relative="1" x="0.0367" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-49" y="348" />
+              <mxPoint x="-49" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-A" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="A" value="交回结果">
+          <mxGeometry relative="1" x="0.3432" as="geometry">
+            <Array as="points">
+              <mxPoint x="562" y="213" />
+              <mxPoint x="562" y="-26" />
+              <mxPoint x="80" y="-26" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="配图2-接模型链路">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="827" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A" value="你的代码&lt;br&gt;day1_hello.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B" value="OpenAI Agents SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="239" y="0" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C" value="你的模型端点&lt;br&gt;（如 Qwen /v1）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="556" y="0" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" edge="1" parent="1" source="A" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-C" value="AsyncOpenAI 客户端&lt;br&gt;base_url 指向你的模型 /v1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;verticalAlign=bottom;labelPlacement=auto;" edge="1" parent="1" source="B" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-B" value="chat_completions 响应" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" edge="1" parent="1" source="C" target="B">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="-24" />
+              <mxPoint x="309" y="-24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-A" value="final_output" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" edge="1" parent="1" source="B" target="A">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="309" y="84" />
+              <mxPoint x="70" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
