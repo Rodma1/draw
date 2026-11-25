@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Hermes" pages="2">
   <diagram id="p1" name="配图1-三件套关系">
-    <mxGraphModel dx="1814" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,30 +57,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="xQtql_9dH1-YkBAfNLlh-1" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" value="公众号:神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="34" width="179" x="150.00028521961448" y="133.99504358358976" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="p2" name="配图2-接模型链路">
-    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="827" adaptiveColors="auto">
+    <mxGraphModel dx="1414" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A" value="你的代码&lt;br&gt;day1_hello.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="0" y="0" width="140" height="60" as="geometry" />
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="你的代码&lt;br&gt;day1_hello.py" vertex="1">
+          <mxGeometry height="60" width="140" as="geometry" />
         </mxCell>
-        <mxCell id="B" value="OpenAI Agents SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="239" y="0" width="140" height="60" as="geometry" />
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="OpenAI Agents SDK" vertex="1">
+          <mxGeometry height="60" width="140" x="239" as="geometry" />
         </mxCell>
-        <mxCell id="C" value="你的模型端点&lt;br&gt;（如 Qwen /v1）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="556" y="0" width="140" height="60" as="geometry" />
+        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#9DB8F2;fontColor=#1B1F24;fontSize=14;" value="你的模型端点&lt;br&gt;（如 Qwen /v1）" vertex="1">
+          <mxGeometry height="60" width="140" x="556" as="geometry" />
         </mxCell>
-        <mxCell id="A-B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" edge="1" parent="1" source="A" target="B">
+        <mxCell id="A-B" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="B">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B-C" value="AsyncOpenAI 客户端&lt;br&gt;base_url 指向你的模型 /v1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;verticalAlign=bottom;labelPlacement=auto;" edge="1" parent="1" source="B" target="C">
+        <mxCell id="B-C" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;verticalAlign=bottom;labelPlacement=auto;" target="C" value="AsyncOpenAI 客户端&lt;br&gt;base_url 指向你的模型 /v1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-B" value="chat_completions 响应" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" edge="1" parent="1" source="C" target="B">
+        <mxCell id="C-B" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="B" value="chat_completions 响应">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="626" y="-24" />
@@ -88,13 +91,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B-A" value="final_output" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" edge="1" parent="1" source="B" target="A">
+        <mxCell id="B-A" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8A94A6;fontColor=#5A626E;fontSize=12;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPlacement=auto;" target="A" value="final_output">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="309" y="84" />
               <mxPoint x="70" y="84" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QJrcFeWBlXnjJy83fksi-1" parent="1" style="text;html=1;fontSize=18;fontColor=#9CA3AF;opacity=40;align=right;verticalAlign=middle;opacityGroup=1;textOpacity=30;rotation=-15;" value="公众号:神的孩子都在歌唱" vertex="1">
+          <mxGeometry height="34" width="179" x="124.00028521961454" y="-17.004956416410238" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
